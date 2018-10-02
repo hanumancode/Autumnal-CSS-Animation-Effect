@@ -85,6 +85,7 @@ body {
     100% {
         top: 110%;
         transform: translate(-20px) rotate(225deg);
+        z-index: 1;
     }
 }
 
@@ -96,4 +97,23 @@ body {
 .leaves3 {
     transform: scale(0.8) rotateY(180deg);
     filter: blur(1px);
+}
+
+.leaves4 {
+    transform: scale(1.8) rotateY(90deg);
+    /* filter: blur(1px); */
+    z-index: 1;
+}
+
+h1 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 7em;
+    transform: translateY(-50%);
+    color: #fff;
+    z-index: -1;
 }
